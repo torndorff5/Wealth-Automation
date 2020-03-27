@@ -1,0 +1,23 @@
+{
+  "name": "wealth-automation",
+  "version": "1.0.0",
+  "description": "Node app that will automation our financial system.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tanner Orndorff",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.6",
+    "request": "^2.88.2",
+    "uuid": "^7.0.2",
+    "uuidv4": "^6.0.6",
+    "xml2json": "^0.12.0"
+  }
+}

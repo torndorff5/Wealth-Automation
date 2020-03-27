@@ -1,0 +1,16 @@
+<%- include("partials/header.ejs") %>
+<div class="">
+  <h1>Accounts</h1>
+  <% accounts.forEach(function(account){ %>
+    <h3><%= account.number %> </h3>
+    <p>
+      <%= account.balance %>
+      </p>
+      <a href="#">Account Details</a>
+  <% }); %>
+    <form class="" action="/createAccount" method="post">
+      <button class="btn btn-dark" type="submit" name="button">Create Account</button>
+    </form>
+</div>
+
+<%- include("partials/footer.ejs") %>
